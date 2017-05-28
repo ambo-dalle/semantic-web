@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>Polygon Bikes | Polygon</title>
+    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script>
+       countries["id"] = "Indonesia";
+    </script>
+</head>
+
+<body class="lang-id home loading" >
+
+    <div id="wrapper" class="content-container">
+        <header id="site-header" class="row">
+	            <div class="header fivecol">
+	                <h1><a href="#" rel="bookmark">Polygon Bikes </a></h1>
+	            </div>
+	            <div class="countryselector">
+	                <a href="#" class="changeCountries"><span class="currentLang"></span><span class="sprite sprite-id_16"></span></a>
+	            </div>
+	           <div id="searchInput" class="fourcol last" >
+	                <form method="post" action="#"  >
+	                  <fieldset>
+	                    <input type="search" name="keywords" id="keywords" placeholder="Pencarian" id="keywords" value="" size="18" maxlength="100"/>
+	                    <div class="search_button">
+	                        <input type="submit" value="" class="submit small">
+	                    </div>
+	                  </fieldset>
+	                </form>
+	          </div>
+        </header>
+        <!-- start Nav code -->
+        <nav id="primaryNav">
+	            <div class="row">
+	                <ul id="main_navigation" class="home">
+	                    <li class="nav-one"><a href="#" id="nav-home"  class="selected" >Home</a></li>
+	                    <li class="nav-two"><a href="#" id="nav-bikes"  >Sepeda</a></li>
+					<li class="nav-three"><a href="#" id="nav-blog"  >Blog</a></li>
+	                    <li class="nav-two"><a href="#" id="nav-equipment"  >Equipment</a></li>
+	                    <li class="nav-five"><a href="#" id="nav-team"  >Tim</a></li>
+	                    <li class="nav-six"><a href="#" id="nav-support"  >Bantuan</a></li>
+	                    <li class="nav-seven"><a href="#/" id="nav-shop-locator"  >Lokasi penjualan</a></li>
+	                    <li class="nav-four"><a href="#" id="nav-webstore">Toko Online</a></li>
+					<li class="nav-eight last"><a href="#" id="nav-about"  >Tentang Polygon</a></li>
+	                </ul>
+
+	            </div>
+
+	            <div id="subnav-wrap" class="row">
+
+	            </div>
+        </nav>
+
+        <!-- end Nav code -->
+
+        <!-- Begin content -->
+	     	<div id="content" class="padding">
+	            <div class="overlay"></div>
+
+				<div class="">
+					<div class="row">
+						<section id="features" class="twelvecol ">
+							<div class="flexslider ">
+								<ul class="slides">
+
+										<li>
+											<a href="#" title="Square One EX9 Pre-Order" rel="bookmark"><img src="img/banner-large2.jpg" width="1152" height="648" alt="" itemprop="image"/></a>
+												<div class="textwrap">
+													<h2><a href="#" title="Square One EX9 Pre-Order" rel="bookmark">Square One EX9 Pre-Order</a></h2>
+												</div>
+										</li>
+
+
+								</ul>
+							</div>
+						</section>
+					</div>
+
+
+						<section id="cats" class="flexslider">
+							<h2>Pilih Kategori</h2>
+								 <ul class="slides ">
+										<li class='category'>
+											<div>
+											<div class="image-wrap">
+												<a href="#" rel="bookmark" itemprop="url" class="imagewrap"><img src="img/kategori-2-mountain-bike.png" width="384" height="216" alt="Mountain Bikes" itemprop="image"/></a>
+											</div>
+												<h3><a href="#" rel="bookmark" title="Mountain Bikes">Mountain Bikes</a></h3>
+											</div>
+										</li>
+										<li class='category'>
+											<div>
+												<div class="image-wrap">
+													<a href="#" rel="bookmark" itemprop="url" class="imagewrap"><img src="img/kategori-1.png" width="384" height="216" alt="Road Bikes" itemprop="image"/></a>
+												</div>
+												<h3><a href="#" rel="bookmark" title="Road Bikes">Road Bikes</a></h3>
+											</div>
+										</li>
+										<li class='category'>
+											<div>
+												<div class="image-wrap">
+													<a href="#"  itemprop="url" class="imagewrap"><img src="img/kategori-3-urban.jpg" width="384" height="216" alt="URBAN" itemprop="image"/></a>
+												</div>
+												<h3><a href="#" rel="bookmark" title="Urban Bikes">URBAN</a></h3>
+											</div>
+										</li>
+
+
+								</ul>
+					  	</section>
+
+
+					<div class="row">
+						<section class="shop-locator">
+								<h1>Mencari Dealer</h1>
+
+
+						<form id="geo-lokasi" method="post" action=""  >
+								<div class='hiddenFields'>
+								<input type="hidden" name="ACT" value="30" />
+								<input type="hidden" name="RP" value="" />
+								<input type="hidden" name="user_lat" value="" />
+								<input type="hidden" name="user_lng" value="" />
+								<input type="hidden" name="site_id" value="1" />
+								<input type="hidden" name="csrf_token" value="" />
+								</div>
+
+
+							    <input type="hidden" name="language_abbreviation" value="id">
+							    <input type="hidden" name="geoquery"  id="geoquery"/>
+							    <span class="errors"></span>
+							    <p>
+							        <label for="City" class="hide" id="geolocation">Kota:</label>
+							        <input type="text" size="25" name="city" placeholder="Kota" id="city"/>
+							    </p>
+							    <p><label for="state">State or country</label>
+							        <input type="text" size="20" name="state" id="state" value="" placeholder="State or country" />
+							    </p>
+
+								<p class="radius"><label for="radius">Pilih radius</label>
+							      <select name="radius" id="radius">
+							            <option value="10" >10 kilometers</option>
+							            <option value="25" selected>25 kilometers</option>
+							            <option value="50" >50 kilometers</option>
+							            <option value="100" >100 kilometers</option>
+							            <option value="200" >200 kilometers</option>
+							      </select>
+						    		</p>
+
+							<p class="button"><input type="submit" class="submit large blue" value="Cari toko sepeda" /></p>
+						</form>
+
+						</section>
+
+
+						<section class="ftwitterwidget">
+							<div id="twitterwidget">
+								<a class="twitter-timeline" href="#" height="315" data-link-color="#ed1d24" data-widget-id="395213474499796993">Tweets by @PolygonBikes</a>
+							</div>
+					  	</section>
+					</div>
+
+
+				</div>
+
+	        </div>
+
+        <!-- end content -->
+
+        <!--Being footer-->
+	     <div class="row">
+	        <footer id="footer" class="twelvecol padding">
+	            <div class="row border-bottom">
+	                <section class="twelvecol label ">
+	                    <h2>Polygon</h2>
+	                </section>
+	            </div>
+
+	            <div class="row">
+	                <ul class="twocol">
+	                    <li><a href="#" >Home</a></li>
+	                    <li><a href="#"  >Sepeda</a></li>
+                        <li class="hoverEl"><a href="#" id="mountain-bikes" title="Mountain Bikes">Mountain Bikes</a></li>
+                        <li class="hoverEl"><a href="#" id="road-bikes"  title="Road Bikes">Road Bikes</a></li>
+                        <li class="hoverEl"><a href="#" id="urban-bikes" title="Urban Bikes">Urban Bikes</a></li>
+                        <li class="hoverEl"><a href="#" id="bmx-dirt-jump" title="BMX & Dirt Jump">BMX & Dirt Jump</a></li>
+                        <li class="hoverEl"><a href="#" id="youth-bikes" title="Youth Bikes">Youth Bikes</a></li>
+	                </ul>
+
+	                <ul class="twocol">
+	                    <li><a href="#"  rel="bookmark">Blog</a></li>
+	                    <li><a href="#"  rel="bookmark">Tim</a></li>
+	                    <li><a href="#" rel="bookmark">Bantuan</a></li>
+	                    <li><a href="#" rel="bookmark">F.A.Q.</a></li>
+	                    <li><a href="#">Karir</a></li>
+	                </ul>
+
+	                <ul class="fourcol border-right">
+	                    <li><a href="#" >Sumber Informasi</a></li>
+	                    <li><a href="#" >Registrasi Sepeda</a></li>
+					<li><a href="#" >Hubungi kami</a></li>
+	                    <li><a href="#" >Member Polygon</a></li>
+	                    <li><a href="#"  >Lokasi penjualan</a></li>
+	                    <li><a href="#" >Tentang Polygon</a></li>
+	                </ul>
+
+	                <ul id="footerlegal" class="twocol border-right">
+	                </ul>
+
+	                <div class="twocol last">
+	                    <nav class="follow-links module">
+						<h4>Follow Us On</h4>
+						<ul>
+						    <li><a href="#" rel="bookmark" class="sprite sprite-twitter_16">Twitter</a></li>
+						    <li><a href="#" rel="bookmark" class="sprite sprite-facebook_16">Facebook</a></li>
+							<li><a href="#" rel="bookmark" class="sprite sprite-youtube_16">YouTube</a></li>
+							<li><a href="#" rel="bookmark" class="sprite sprite-instagram_16">Instagram</a></li>
+							<li><a href="#" rel="bookmark" class="sprite sprite-pinterest_16">Pinterest</a></li>
+						</ul>
+					</nav>
+	                </div>
+	            </div>
+	        </footer><!-- End footer -->
+	      </div>
+     </div><!--end wrapper-->
+
+
+</html>
